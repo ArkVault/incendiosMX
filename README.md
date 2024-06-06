@@ -1,7 +1,8 @@
 # incendiosMX
 Un detector de incendios de gran magnitud que aprovecha la tecnologia de los satélites multiespectrales y la plataforma de la Agencia Espacial Europea Copernicus
 
-![Captura de pantalla 2024-06-05 a la(s) 8 44 43 p m](https://github.com/ArkVault/incendiosMX/assets/77123356/664adb64-8c8e-42ef-ac44-96b5658ca2d9)
+
+![Uploading Captura de pantalla 2024-06-05 a la(s) 9.02.49 p.m..png…]()
 
 
 
