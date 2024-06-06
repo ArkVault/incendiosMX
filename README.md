@@ -7,3 +7,6 @@ Un detector de incendios de gran magnitud que aprovecha la tecnologia de los sat
 
 
 A pesar de que se han utilizados imágenes satelitaes covencionales, estas al mostrar el rango de la luz visibl,e no permiten distinguir con claridad las áreas afectadas en su verdadera dimensión. Es por ello que desarrollé este código que aprovecha los sensores infrarrojos de los satélites para delimitar mejor las áreas ya incendiadas y las que estan bajo fuego activo, lo cual permitirá analizar la posible dirección de los mismos y  estimar las afectaciones con mayor precisión.
+
+
+Para ejecutar este script es necesario utilizar Copernicus Browser y dirigirse a Visualize > Custom Script
