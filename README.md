@@ -1,5 +1,5 @@
 # incendiosMX v1
-Un detector de incendios de gran magnitud que aprovecha la tecnologia de los satélites multiespectrales y la plataforma de la Agencia Espacial Europea Copernicus
+Un detector de incendios que lee actualizaciones de satélites multiespectrales y la plataforma de la Agencia Espacial Europea Copernicus
 
 
 ![Uploading Captura de pantalla 2024-06-05 a la(s) 9.02.49 p.m..png…]()
@@ -16,3 +16,4 @@ A pesar de que se han utilizados imágenes satelitaes covencionales, estas al mo
 ![Captura de pantalla 2024-06-05 a la(s) 8 40 04 p m](https://github.com/ArkVault/incendiosMX/assets/77123356/ae59b865-f281-410c-aff4-259fb2888008)
 
 Para ejecutar este script es necesario utilizar Copernicus Browser y dirigirse a Visualize > Custom Script
+Y alli ejecutar el script
