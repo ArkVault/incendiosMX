@@ -1,9 +1,8 @@
 # incendiosMX v1
 Un detector de incendios que lee actualizaciones de satélites multiespectrales y la plataforma de la Agencia Espacial Europea Copernicus
 
+![Captura de pantalla 2024-06-06 a la(s) 6 47 37 p m](https://github.com/ArkVault/incendiosMX/assets/77123356/afe973b9-47fe-4013-a549-d05df8c26ffe)
 
-
-![Captura de pantalla 2024-06-06 a la(s) 1 05 13 a m](https://github.com/ArkVault/incendiosMX/assets/77123356/bc27c3b8-7594-4adb-a526-0797a24e7b41)
 
 
 
