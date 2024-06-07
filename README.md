@@ -2,9 +2,8 @@
 Un detector de incendios que lee actualizaciones de satélites multiespectrales y la plataforma de la Agencia Espacial Europea Copernicus
 
 
-![Uploading Captura de pantalla 2024-06-05 a la(s) 9.02.49 p.m..png…]()
 
-
+![Captura de pantalla 2024-06-06 a la(s) 1 05 13 a m](https://github.com/ArkVault/incendiosMX/assets/77123356/bc27c3b8-7594-4adb-a526-0797a24e7b41)
 
 
 
