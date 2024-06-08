@@ -14,4 +14,6 @@ A pesar de que se han utilizados imágenes satelitaes covencionales, estas al mo
 ![Captura de pantalla 2024-06-05 a la(s) 8 40 04 p m](https://github.com/ArkVault/incendiosMX/assets/77123356/ae59b865-f281-410c-aff4-259fb2888008)
 
 Para ejecutar este script es necesario utilizar Copernicus Browser y dirigirse a Visualize > Custom Script
-Y alli ejecutar el script
+Y alli ejecutar el script. Eligiendo previamente: Sentinel 2 > SL2-A > Most recent
+
+Se puede implementar como un servicio WMS en plataformas como Arcgis, ejemplo: https://www.arcgis.com/apps/instant/basic/index.html?appid=65bb8774bd1847688622e15bbe53247c
