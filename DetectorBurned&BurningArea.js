@@ -1,5 +1,5 @@
 //VERSION=3
-// Detector Burned and current fire area detection
+// Detección  de áreas incendiadas y de fuego activos
 
 function setup() {
     // Definir la configuración de entrada y salida
@@ -12,13 +12,14 @@ function setup() {
 }
 
 function evaluatePixel(samples) {
-    // Calcular el Índice de Diferencia Normalizada del Agua (NDWI)
+    // CPrimero es necesario calcular el Índice de Diferencia Normalizada del Agua (NDWI)
     var NDWI = index(samples.B03, samples.B08); 
     
-    // Calcular el Índice de Vegetación de Diferencia Normalizada (NDVI)
+    // Luego calcular el Índice de Vegetación de Diferencia Normalizada (NDVI)
     var NDVI = index(samples.B08, samples.B04);
     
-    // Calcular un índice personalizado para identificar áreas en llamas
+    // De acuerdo con las firmas espectrales de  áreas en llamas realizamos esta peración con las bandas, 
+    //una referencia de indices espectrales es https://www.indexdatabase.de/db/i-single.php?id=308
     var INDEX = ((samples.B11 - samples.B12) / (samples.B11 + samples.B12)) + (samples.B08);
 
     // Condición para identificar tierra (áreas no quemadas)
@@ -27,7 +28,7 @@ function evaluatePixel(samples) {
         var grayValue = 0.25 * (samples.B02 + samples.B03 + samples.B04);
         return [grayValue, grayValue, grayValue, samples.dataMask];
     }
-    // Condición para identificar áreas ya quemadas
+    // y Para identificar áreas ya quemadas
     // Color amarillo semi-transparente (RGB: [1, 1, 0], Alpha: 0.5)
     else if (INDEX < 0.1 && samples.B12 > 0.2) {
         return [1, 1, 0, 0.5 * samples.dataMask];
