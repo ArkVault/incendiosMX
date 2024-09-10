@@ -6,11 +6,14 @@ The script classify the terrain based on the calculated indices and band values.
 
 References
 
-Chuvieco, E., & Kasischke, E. S. (2007). Remote Sensing Information for Fire Management and Decision Support. In this study, the authors discuss the importance of using different spectral bands and indices for detecting and monitoring wildfires, providing insights into the selection of suitable bands like B11 and B12 for thermal detection.
 
-Roy, D. P., et al. (2005). MODIS-derived fire characteristics and their relation to the biomass burning record. This research highlights the application of remote sensing indices like NDVI and thermal bands for identifying active fire regions, offering a framework relevant to the indices used in the provided code.
+Chuvieco, E., & Kasischke, E. S. (2007). Remote Sensing Information for Fire Management and Decision Support. 
 
-Wooster, M. J., Roberts, G., Perry, G. L. W., & Kaufman, Y. J. (2005). Retrieval of biomass combustion rates and efficiencies using ATSR active fire data. This paper demonstrates methods for leveraging satellite imagery to detect and analyze fire activity, particularly using thermal infrared bands similar to B11 and B12.
+Roy, D. P., et al. (2005). MODIS-derived fire characteristics and their relation to the biomass burning record. 
+
+Wooster, M. J., Roberts, G., Perry, G. L. W., & Kaufman, Y. J. (2005). Retrieval of biomass combustion rates and efficiencies using ATSR active fire data. 
+
+Tiznegar startup co, Active Fire Detection, 2020
 
 *Read more in Spanish below
 
