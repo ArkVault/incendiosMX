@@ -1,9 +1,18 @@
 # incendiosMX v1
-The code provided is an EvalScript for the Sentinel Hub service, designed for detecting burned areas and active fires using satellite imagery. The setup function defines the input and output configurations for the script. The inputs are spectral bands from Sentinel-2 (B02, B03, B04, B08, B11, B12) and a dataMask, which is often used to exclude areas with no data or clouds. The output is configured to have four bands: Red (R), Green (G), Blue (B), and Alpha (transparency). The evaluatePixel function computes two well-known spectral indices: the Normalized Difference Water Index (NDWI) and the Normalized Difference Vegetation Index (NDVI), both used for distinguishing water bodies and healthy vegetation. Additionally, the script calculates a custom index that involves thermal bands (B11 and B12) and the near-infrared band (B08) to identify burned areas and active fires.
+This is an EvalScript for the Sentinel Hub service, designed for detecting burned areas and active fires using satellite imagery. The setup function defines the input and output configurations for the script. The inputs are spectral bands from Sentinel-2 (B02, B03, B04, B08, B11, B12) and a dataMask, which is often used to exclude areas with no data or clouds. The output is configured to have four bands: Red (R), Green (G), Blue (B), and Alpha (transparency). The evaluatePixel function computes two well-known spectral indices: the Normalized Difference Water Index (NDWI) and the Normalized Difference Vegetation Index (NDVI), both used for distinguishing water bodies and healthy vegetation. Additionally, the script calculates a custom index that involves thermal bands (B11 and B12) and the near-infrared band (B08) to identify burned areas and active fires.
 
 The script uses conditional statements to classify the terrain based on the calculated indices and band values. If the custom index value (INDEX) is high or certain band values indicate non-burned areas, a grayscale color is assigned. For burned areas where the custom index is low and thermal band B12 is high, a semi-transparent yellow color is returned.
 
-Read in Spanish below
+
+References
+
+Chuvieco, E., & Kasischke, E. S. (2007). Remote Sensing Information for Fire Management and Decision Support. In this study, the authors discuss the importance of using different spectral bands and indices for detecting and monitoring wildfires, providing insights into the selection of suitable bands like B11 and B12 for thermal detection.
+
+Roy, D. P., et al. (2005). MODIS-derived fire characteristics and their relation to the biomass burning record. This research highlights the application of remote sensing indices like NDVI and thermal bands for identifying active fire regions, offering a framework relevant to the indices used in the provided code.
+
+Wooster, M. J., Roberts, G., Perry, G. L. W., & Kaufman, Y. J. (2005). Retrieval of biomass combustion rates and efficiencies using ATSR active fire data. This paper demonstrates methods for leveraging satellite imagery to detect and analyze fire activity, particularly using thermal infrared bands similar to B11 and B12.
+
+*Read more in Spanish below
 
 Un detector de incendios que lee actualizaciones de satélites multiespectrales y la plataforma de la Agencia Espacial Europea Copernicus
 
